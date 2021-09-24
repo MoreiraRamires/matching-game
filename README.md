@@ -1,7 +1,7 @@
 
 ![GitHub](https://img.shields.io/github/license/MoreiraRamires/matching-game)
 <h1 align="center">
-    <img alt="Gatry" title="#gatry" src="src/imagens/banner.png" />
+    <img alt="Matching Game" title="#gatry" src="src/imagens/banner.png" />
 </h1>
 
 <h3 align="center"> 
