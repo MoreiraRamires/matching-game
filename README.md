@@ -13,7 +13,7 @@
 ## 💻 Sobre o projeto
 
 
-Projeto realizado durante o curso de JavasCript do professor Marco Bruno.
+Projeto realizado durante o Curso de JS para React  do professor Marco Bruno.
 
 ## 🛠 Tecnologias
 
