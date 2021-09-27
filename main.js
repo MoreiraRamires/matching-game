@@ -4,6 +4,7 @@ import "./src/styles/elements/base.css";
 
 import BoardGame from "./src/objects/BoardGame";
 import ScoreBoard from "./src/objects/ScoreBoard";
+import CardFrontBack from "./src/components/CardFrontBack";
 
 const $root = document.querySelector("#root");
 
@@ -11,19 +12,10 @@ $root.insertAdjacentHTML(
   "beforeend",
   `
     ${ScoreBoard()}
-    ${BoardGame(6)}
+    ${BoardGame(2)}
   `
 );
 
-  // Flip
-  const cardsGames = document.querySelectorAll('.card-game');
-
-  function flipCard() {
-    this.classList.toggle('flip');
-  }
-  
-  cardsGames.forEach(card => card.addEventListener('click', flipCard));
-  
 
 // ===*Observações*===
 // toda variavel que começa com $ guarda uma referencia, um elemento da tela
